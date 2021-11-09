@@ -16,7 +16,7 @@ body {
   font-family: "Muli-Regular";
   font-size: 15px;
   margin: 0;
-  color: #fff; }
+  color: #21541ce3; }
 
 input, textarea, select, button {
   font-family: "Muli-SemiBold"; }
@@ -41,18 +41,18 @@ a {
   min-height: 100vh;
   display: flex; }
   .wrapper .image-holder {
-    width: 50%; }
+    width: 40%; }
   .wrapper .form-inner {
-    width: 50%; }
+    width: 60%; }
 
 .image-holder {
   background: url("https://i.ibb.co/tHJVHvr/gambar-login.jpg") no-repeat;
-  background-size: cover; }
+  background-size: 100% 100%; }
   .image-holder img {
     display: none; }
 
 .form-inner {
-  background: #7d94ef;
+  background: #fefeff;
   padding-top: 16.36vh;
   padding-left: 4vw;
   padding-right: 4vw; }
@@ -83,15 +83,15 @@ label {
   display: block;
   width: 100%;
   height: 45px;
-  background: none;
+  background: rgb(231, 228, 228);
   padding: 0 19px;
-  color: #fff;
+  color: #21541ce3;
   font-size: 17px; }
   .form-control.error {
     border-color: #fd677a !important;
     background: url("../images/error.png") no-repeat center right 19px; }
   .form-control.valid {
-    background: url("../images/valid.png") no-repeat center right 19px; }
+    background: rgb(231, 228, 228);; }
 
 .form-error {
   margin-top: 10px;
@@ -109,7 +109,7 @@ button {
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: #fff;
+  background: #21541ce3;
   color: #000;
   text-transform: uppercase;
   font-size: 17px;
@@ -141,7 +141,7 @@ button {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out; }
   button:hover {
-    color: white; }
+    color: #21541ce3; }
     button:hover:before {
       -webkit-transform: scaleX(1);
       transform: scaleX(1); }
@@ -159,19 +159,19 @@ button {
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 19px;
-  color: #fff;
+  color: #21541ce3;
   transition: all 0.5s ease;
   margin-right: 19px; }
   .socials-icon:hover {
-    background: #fff;
+    background: #21541ce3;
     border: 1px solid transparent;
-    color: #ff97a4; }
+    color: #21541ce3; }
   .socials-icon:last-child {
     margin-right: 0; }
 
 p {
   font-family: "Muli-SemiBold";
-  color: #ffff66;
+  color: #21541ce3;
   margin-bottom: 22px; }
 
 @media (max-width: 1500px) {
